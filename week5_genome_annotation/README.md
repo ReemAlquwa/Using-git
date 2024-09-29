@@ -14,3 +14,13 @@ print(f"Number of bases (including stop codon): {num_bases}")
 (myenv) [alquwara@login509-02-l ~]$ (myenv) [alquwara@login509-02-l ~]$ python task1_amino_acid_count.py
 Number of amino acids: 30
 Total number of bases (including stop codon): 93
+
+
+## Task 2: Genome Annotation with Prodigal
+
+- **Genome File**: GCA_000006745.1_ASM674v1_genomic.fna
+- **Number of Annotated Genes**: 3,594
+- **Command Used to Count CDS**:
+  ```bash
+  grep -c "CDS" GCA_000006745.1_ASM674v1_genomic_output.txt
+
