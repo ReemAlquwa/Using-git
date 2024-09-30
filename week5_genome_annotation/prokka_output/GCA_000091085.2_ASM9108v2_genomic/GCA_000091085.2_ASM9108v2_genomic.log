@@ -1,0 +1,257 @@
+[21:06:19] This is prokka 1.14.6
+[21:06:19] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[21:06:19] Homepage is https://github.com/tseemann/prokka
+[21:06:19] Local time is Mon Sep 30 21:06:19 2024
+[21:06:19] You are alquwara
+[21:06:19] Operating system is linux
+[21:06:19] You have BioPerl 1.007002
+[21:06:19] System has 40 cores.
+[21:06:19] Will use maximum of 8 cores.
+[21:06:19] Annotating as >>> Bacteria <<<
+[21:06:19] Generating locus_tag from '/home/alquwara/ncbi_dataset/data/Reem/GCA_000091085.2_ASM9108v2_genomic.fna' contents.
+[21:06:19] Setting --locustag JCFPBPPM from MD5 3cf9b996b31775612cf98542d20dd03e
+[21:06:19] Re-using existing --outdir ./prokka_output/GCA_000091085.2_ASM9108v2_genomic
+[21:06:19] Using filename prefix: GCA_000091085.2_ASM9108v2_genomic.XXX
+[21:06:19] Setting HMMER_NCPU=1
+[21:06:19] Writing log to: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.log
+[21:06:19] Command: /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/prokka --force --outdir ./prokka_output/GCA_000091085.2_ASM9108v2_genomic --prefix GCA_000091085.2_ASM9108v2_genomic /home/alquwara/ncbi_dataset/data/Reem/GCA_000091085.2_ASM9108v2_genomic.fna
+[21:06:19] Appending to PATH: /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin
+[21:06:19] Looking for 'aragorn' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/aragorn
+[21:06:19] Determined aragorn version is 001002 from 'ARAGORN v1.2.38 Dean Laslett'
+[21:06:19] Looking for 'barrnap' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/barrnap
+[21:06:19] Determined barrnap version is 000009 from 'barrnap 0.9'
+[21:06:19] Looking for 'blastp' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/blastp
+[21:06:19] Determined blastp version is 002010 from 'blastp: 2.10.1+'
+[21:06:19] Looking for 'cmpress' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/cmpress
+[21:06:19] Determined cmpress version is 001001 from '# INFERNAL 1.1.3 (Nov 2019)'
+[21:06:19] Looking for 'cmscan' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/cmscan
+[21:06:19] Determined cmscan version is 001001 from '# INFERNAL 1.1.3 (Nov 2019)'
+[21:06:19] Looking for 'egrep' - found /usr/bin/egrep
+[21:06:19] Looking for 'find' - found /usr/bin/find
+[21:06:19] Looking for 'grep' - found /usr/bin/grep
+[21:06:19] Looking for 'hmmpress' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/hmmpress
+[21:06:19] Determined hmmpress version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[21:06:19] Looking for 'hmmscan' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/hmmscan
+[21:06:19] Determined hmmscan version is 003003 from '# HMMER 3.3.2 (Nov 2020); http://hmmer.org/'
+[21:06:19] Looking for 'java' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/java
+[21:06:19] Looking for 'makeblastdb' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/makeblastdb
+[21:06:19] Determined makeblastdb version is 002010 from 'makeblastdb: 2.10.1+'
+[21:06:19] Looking for 'minced' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/minced
+[21:06:19] Determined minced version is 004002 from 'minced 0.4.2'
+[21:06:19] Looking for 'parallel' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/parallel
+[21:06:19] Determined parallel version is 20201122 from 'GNU parallel 20201122'
+[21:06:19] Looking for 'prodigal' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/prodigal
+[21:06:19] Determined prodigal version is 002006 from 'Prodigal V2.6.3: February, 2016'
+[21:06:19] Looking for 'prokka-genbank_to_fasta_db' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/prokka-genbank_to_fasta_db
+[21:06:19] Looking for 'sed' - found /usr/bin/sed
+[21:06:19] Looking for 'tbl2asn' - found /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/bin/tbl2asn
+[21:06:19] Determined tbl2asn version is 025007 from 'tbl2asn 25.7   arguments:'
+[21:06:19] Using genetic code table 11.
+[21:06:19] Loading and checking input file: /home/alquwara/ncbi_dataset/data/Reem/GCA_000091085.2_ASM9108v2_genomic.fna
+[21:06:19] Wrote 2 contigs totalling 1234385 bp.
+[21:06:19] Predicting tRNAs and tmRNAs
+[21:06:19] Running: aragorn -l -gc11  -w \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.fna
+[21:06:20] 1 tRNA-Ala c[5393,5467] 35 (ggc)
+[21:06:20] 2 tRNA-Arg [34172,34244] 34 (tct)
+[21:06:20] 3 tRNA-Thr [54804,54879] 35 (cgt)
+[21:06:20] 4 tRNA-Lys c[56591,56663] 34 (ttt)
+[21:06:20] 5 tRNA-Glu c[56688,56764] 38 (ttc)
+[21:06:20] 6 tRNA-Gly c[59905,59975] 33 (tcc)
+[21:06:20] 7 tRNA-Leu c[102099,102182] 35 (cag)
+[21:06:20] 8 tRNA-Leu [125613,125697] 35 (taa)
+[21:06:20] 9 tRNA-Ser [133144,133231] 35 (gct)
+[21:06:20] 10 tRNA-Leu [161325,161408] 36 (gag)
+[21:06:20] 11 tRNA-Arg c[164248,164321] 35 (tcg)
+[21:06:20] 12 tRNA-Leu c[169266,169350] 35 (caa)
+[21:06:20] 13 tRNA-Phe [210139,210213] 35 (gaa)
+[21:06:20] 14 tRNA-Ser [214597,214685] 36 (gga)
+[21:06:20] 15 tRNA-Arg c[378982,379057] 36 (cct)
+[21:06:20] 16 tRNA-Pro c[431275,431349] 36 (tgg)
+[21:06:20] 17 tRNA-Asp c[545058,545133] 36 (gtc)
+[21:06:20] 18 tRNA-Val c[545135,545209] 35 (tac)
+[21:06:20] 19 tRNA-Thr [547805,547879] 35 (tgt)
+[21:06:20] 20 tRNA-Tyr [547884,547967] 35 (gta)
+[21:06:20] 21 tRNA-Ala [572141,572213] 34 (tgc)
+[21:06:20] 22 tRNA-Ile [572218,572291] 35 (gat)
+[21:06:20] 23 tRNA-Met c[641807,641885] 36 (cat)
+[21:06:20] 24 tRNA-Met c[641899,641973] 35 (cat)
+[21:06:20] 25 tRNA-Asn [676811,676884] 34 (gtt)
+[21:06:20] 26 tmRNA [702708,703130] 92,160 AEPKAECEIISLFDSVEERLAA*
+[21:06:20] 27 tRNA-Trp c[750131,750205] 35 (cca)
+[21:06:20] 28 tRNA-Thr c[751474,751545] 33 (ggt)
+[21:06:20] 29 tRNA-Met [753680,753752] 34 (cat)
+[21:06:20] 30 tRNA-Ser [841402,841490] 36 (cga)
+[21:06:20] 31 tRNA-Leu c[895468,895552] 36 (tag)
+[21:06:20] 32 tRNA-Ser c[929296,929380] 35 (tga)
+[21:06:20] 33 tRNA-Val [933953,934026] 35 (gac)
+[21:06:20] 34 tRNA-Gln c[985738,985811] 34 (ttg)
+[21:06:20] 35 tRNA-Cys [1040839,1040909] 33 (gca)
+[21:06:20] 36 tRNA-His [1071420,1071494] 35 (gtg)
+[21:06:20] 37 tRNA-Gly [1109835,1109906] 33 (gcc)
+[21:06:20] 38 tRNA-Arg c[1193970,1194043] 35 (acg)
+[21:06:20] 39 tRNA-Pro c[1227444,1227517] 35 (ggg)
+[21:06:20] Found 39 tRNAs
+[21:06:20] Predicting Ribosomal RNAs
+[21:06:20] Running Barrnap with 8 threads
+[21:06:20] 1 AE002161.1 1065938 5S ribosomal RNA
+[21:06:20] 2 AE002161.1 1066167 23S ribosomal RNA
+[21:06:20] 3 AE002161.1 1069330 16S ribosomal RNA
+[21:06:20] Found 3 rRNAs
+[21:06:20] Skipping ncRNA search, enable with --rfam if desired.
+[21:06:20] Total of 41 tRNA + rRNA features
+[21:06:20] Searching for CRISPR repeats
+[21:06:20] Found 0 CRISPRs
+[21:06:20] Predicting coding sequences
+[21:06:20] Contigs total 1234385 bp, so using single mode
+[21:06:20] Running: prodigal -i \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.fna -c -m -g 11 -p single -f sco -q
+[21:06:22] Excluding CDS which overlaps existing RNA (tRNA) at AE002161.1:3235..5403 on + strand
+[21:06:22] Excluding CDS which overlaps existing RNA (tRNA) at AE002161.1:547932..548039 on - strand
+[21:06:23] Excluding CDS which overlaps existing RNA (tRNA) at AE002161.1:934017..934691 on - strand
+[21:06:23] Excluding CDS which overlaps existing RNA (rRNA) at AE002161.1:1066576..1067205 on + strand
+[21:06:23] Excluding CDS which overlaps existing RNA (tRNA) at AE002161.1:1071290..1071442 on + strand
+[21:06:23] Found 1056 CDS
+[21:06:23] Connecting features back to sequences
+[21:06:23] Not using genus-specific database. Try --usegenus to enable it.
+[21:06:23] Annotating CDS, please be patient.
+[21:06:23] Will use 8 CPUs for similarity searching.
+[21:06:23] There are still 1056 unannotated CDS left (started with 1056)
+[21:06:23] Will use blast to search against /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/kingdom/Bacteria/IS with 8 CPUs
+[21:06:23] Running: cat \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.IS\.tmp\.2316067\.faa | parallel --gnu --plain -j 8 --block 23263 --recstart '>' --pipe blastp -query - -db /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.IS\.tmp\.2316067\.blast 2> /dev/null
+[21:06:26] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.IS.tmp.2316067.faa
+[21:06:26] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.IS.tmp.2316067.blast
+[21:06:26] There are still 1056 unannotated CDS left (started with 1056)
+[21:06:26] Will use blast to search against /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/kingdom/Bacteria/AMR with 8 CPUs
+[21:06:26] Running: cat \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.AMR\.tmp\.2316067\.faa | parallel --gnu --plain -j 8 --block 23263 --recstart '>' --pipe blastp -query - -db /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/kingdom/Bacteria/AMR -evalue 9.99999999999999e-301 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.AMR\.tmp\.2316067\.blast 2> /dev/null
+[21:06:29] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.AMR.tmp.2316067.faa
+[21:06:29] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.AMR.tmp.2316067.blast
+[21:06:29] There are still 1056 unannotated CDS left (started with 1056)
+[21:06:29] Will use blast to search against /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/kingdom/Bacteria/sprot with 8 CPUs
+[21:06:29] Running: cat \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.sprot\.tmp\.2316067\.faa | parallel --gnu --plain -j 8 --block 23263 --recstart '>' --pipe blastp -query - -db /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.sprot\.tmp\.2316067\.blast 2> /dev/null
+[21:06:41] Modify product: Bifunctional protein FolD => Bifunctional protein FolD protein
+[21:06:41] Modify product: Probable FKBP-type peptidyl-prolyl cis-trans isomerase FkpA => putative FKBP-type peptidyl-prolyl cis-trans isomerase FkpA
+[21:06:41] Modify product: UPF0235 protein YggU => hypothetical protein
+[21:06:41] Modify product: Probable ABC transporter arginine-binding protein ArtJ => putative ABC transporter arginine-binding protein ArtJ
+[21:06:41] Modify product: Probable outer membrane protein pmp18 => putative outer membrane protein pmp18
+[21:06:41] Modify product: Probable outer membrane protein pmp15 => putative outer membrane protein pmp15
+[21:06:41] Modify product: Probable outer membrane protein pmp15 => putative outer membrane protein pmp15
+[21:06:41] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[21:06:41] Modify product: UPF0053 protein HI_0107 => hypothetical protein
+[21:06:41] Modify product: Glycogen operon protein GlgX homolog => Glycogen operon protein GlgX 
+[21:06:41] Modify product: Probable cytosol aminopeptidase => putative cytosol aminopeptidase
+[21:06:41] Modify product: Probable UbiX-like flavin prenyltransferase => putative UbiX-like flavin prenyltransferase
+[21:06:41] Modify product: UPF0176 protein SP_0095 => hypothetical protein
+[21:06:41] Modify product: Uncharacterized protein CT_666 => putative protein CT_666
+[21:06:41] Modify product: Probable ATP synthase YscN => putative ATP synthase YscN
+[21:06:41] Modify product: Uncharacterized protein CT_671 => putative protein CT_671
+[21:06:41] Modify product: Probable ATP-dependent transporter SufC => putative ATP-dependent transporter SufC
+[21:06:41] Modify product: Probable chromosome-partitioning protein ParB => putative chromosome-partitioning protein ParB
+[21:06:41] Modify product: UPF0111 protein HI_1603 => hypothetical protein
+[21:06:41] Modify product: Probable transcriptional regulatory protein YebC => putative transcriptional regulatory protein YebC
+[21:06:41] Modify product: Probable outer membrane protein pmp20 => putative outer membrane protein pmp20
+[21:06:41] Modify product: Probable outer membrane protein pmp19 => putative outer membrane protein pmp19
+[21:06:41] Modify product: Probable outer membrane protein pmp16 => putative outer membrane protein pmp16
+[21:06:41] Modify product: Probable outer membrane protein pmp15 => putative outer membrane protein pmp15
+[21:06:41] Modify product: Probable outer membrane protein pmp14 => putative outer membrane protein pmp14
+[21:06:41] Modify product: Probable outer membrane protein pmp13 => putative outer membrane protein pmp13
+[21:06:41] Modify product: Probable outer membrane protein pmp12 => putative outer membrane protein pmp12
+[21:06:41] Modify product: Probable outer membrane protein pmp11 => putative outer membrane protein pmp11
+[21:06:41] Modify product: Probable outer membrane protein pmp10 => putative outer membrane protein pmp10
+[21:06:41] Modify product: Probable outer membrane protein pmp9 => putative outer membrane protein pmp9
+[21:06:41] Modify product: Probable outer membrane protein pmp8 => putative outer membrane protein pmp8
+[21:06:41] Modify product: Probable outer membrane protein pmp7 => putative outer membrane protein pmp7
+[21:06:41] Modify product: Probable outer membrane protein pmp6 => putative outer membrane protein pmp6
+[21:06:42] Modify product: UPF0301 protein SO_3346 => hypothetical protein
+[21:06:42] Modify product: GTP cyclohydrolase 1 type 2 homolog => GTP cyclohydrolase 1 type 2 
+[21:06:42] Modify product: UPF0056 inner membrane protein YhgN => hypothetical protein
+[21:06:42] Modify product: Probable outer membrane protein pmp21 => putative outer membrane protein pmp21
+[21:06:42] Modify product: UPF0098 protein CT_736 => hypothetical protein
+[21:06:42] Modify product: Probable cadmium-transporting ATPase => putative cadmium-transporting ATPase
+[21:06:42] Modify product: Probable secretion system apparatus ATP synthase SsaN => putative secretion system apparatus ATP synthase SsaN
+[21:06:42] Modify product: Probable uridylyltransferase SA1974 => putative uridylyltransferase
+[21:06:42] Modify product: Probable peptidoglycan glycosyltransferase FtsW => putative peptidoglycan glycosyltransferase FtsW
+[21:06:42] Modify product: Uncharacterized ABC transporter ATP-binding protein YbiT => putative ABC transporter ATP-binding protein YbiT
+[21:06:42] Modify product: Probable outer membrane protein pmp10 => putative outer membrane protein pmp10
+[21:06:42] Modify product: Probable outer membrane protein pmp8 => putative outer membrane protein pmp8
+[21:06:42] Modify product: Probable outer membrane protein pmp10 => putative outer membrane protein pmp10
+[21:06:42] Modify product: Probable outer membrane protein pmp8 => putative outer membrane protein pmp8
+[21:06:42] Modify product: Probable outer membrane protein pmp10 => putative outer membrane protein pmp10
+[21:06:42] Modify product: Probable outer membrane protein pmp11 => putative outer membrane protein pmp11
+[21:06:42] Modify product: Probable outer membrane protein pmp2 => putative outer membrane protein pmp2
+[21:06:42] Modify product: Probable outer membrane protein pmp1 => putative outer membrane protein pmp1
+[21:06:42] Modify product: Protein CPn_0803/CP_1068/CPj0803/CpB0832 => Protein/CP_1068/CPj0803/CpB0832
+[21:06:42] Modify product: Probable oxidoreductase CT_610 => putative oxidoreductase CT_610
+[21:06:42] Cleaned 53 /product names
+[21:06:42] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.sprot.tmp.2316067.faa
+[21:06:42] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.sprot.tmp.2316067.blast
+[21:06:42] There are still 588 unannotated CDS left (started with 1056)
+[21:06:42] Will use hmmer3 to search against /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/hmm/HAMAP.hmm with 8 CPUs
+[21:06:42] Running: cat \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.HAMAP\.hmm\.tmp\.2316067\.faa | parallel --gnu --plain -j 8 --block 11877 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /ibex/sw/csi/prokka/1.14.5/conda2/miniconda2/db/hmm/HAMAP.hmm /dev/stdin > \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.HAMAP\.hmm\.tmp\.2316067\.hmmer3 2> /dev/null
+[21:06:46] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.HAMAP.hmm.tmp.2316067.faa
+[21:06:46] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.HAMAP.hmm.tmp.2316067.hmmer3
+[21:06:46] Labelling remaining 487 proteins as 'hypothetical protein'
+[21:06:46] Possible /pseudo 'putative outer membrane protein pmp15' at AE002161.1 position 300124
+[21:06:46] Possible /pseudo 'DNA replication and repair protein RecF' at AE002161.1 position 457246
+[21:06:46] Possible /pseudo 'Oligopeptide-binding protein OppA' at AE002161.1 position 603767
+[21:06:46] Possible /pseudo 'Oligopeptide-binding protein OppA' at AE002161.1 position 605501
+[21:06:46] Possible /pseudo 'Inosine-5'-monophosphate dehydrogenase' at AE002161.1 position 628112
+[21:06:46] Found 493 unique /gene codes.
+[21:06:46] Fixed 2 duplicate /gene - gyrB_1 gyrB_2
+[21:06:46] Fixed 2 duplicate /gene - recF_1 recF_2
+[21:06:46] Fixed 3 duplicate /gene - oppA_1 oppA_2 oppA_3
+[21:06:46] Fixed 3 duplicate /gene - pmp8_1 pmp8_2 pmp8_3
+[21:06:46] Fixed 2 duplicate /gene - tlcA_1 tlcA_2
+[21:06:46] Fixed 2 duplicate /gene - alsT_1 alsT_2
+[21:06:46] Fixed 2 duplicate /gene - tyrP_1 tyrP_2
+[21:06:46] Fixed 2 duplicate /gene - sctC_1 sctC_2
+[21:06:46] Fixed 2 duplicate /gene - ruvB_1 ruvB_2
+[21:06:46] Fixed 2 duplicate /gene - dnaA_1 dnaA_2
+[21:06:46] Fixed 2 duplicate /gene - ispE_1 ispE_2
+[21:06:46] Fixed 2 duplicate /gene - oppD_1 oppD_2
+[21:06:46] Fixed 2 duplicate /gene - gyrA_1 gyrA_2
+[21:06:46] Fixed 2 duplicate /gene - dinG_1 dinG_2
+[21:06:46] Fixed 2 duplicate /gene - bioF_1 bioF_2
+[21:06:46] Fixed 2 duplicate /gene - pfp_1 pfp_2
+[21:06:46] Fixed 2 duplicate /gene - guaB_1 guaB_2
+[21:06:46] Fixed 2 duplicate /gene - dxs_1 dxs_2
+[21:06:46] Fixed 2 duplicate /gene - pdhC_1 pdhC_2
+[21:06:46] Fixed 2 duplicate /gene - efp_1 efp_2
+[21:06:46] Fixed 2 duplicate /gene - pknD_1 pknD_2
+[21:06:46] Fixed 2 duplicate /gene - aas_1 aas_2
+[21:06:46] Fixed 2 duplicate /gene - pgsA_1 pgsA_2
+[21:06:46] Fixed 2 duplicate /gene - rbn_1 rbn_2
+[21:06:46] Fixed 3 duplicate /gene - groL_1 groL_2 groL_3
+[21:06:46] Fixed 2 duplicate /gene - iscS_1 iscS_2
+[21:06:46] Fixed 26 colliding /gene names.
+[21:06:46] Adding /locus_tag identifiers
+[21:06:46] Assigned 1098 locus_tags to CDS and RNA features.
+[21:06:46] Writing outputs to ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/
+[21:06:46] Generating annotation statistics file
+[21:06:46] Generating Genbank and Sequin files
+[21:06:46] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.14.6 from https://github.com/tseemann/prokka' -Z \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.err -i \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.fsa 2> /dev/null
+[21:06:48] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/errorsummary.val
+[21:06:48] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.dr
+[21:06:48] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.fixedproducts
+[21:06:48] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.ecn
+[21:06:48] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.val
+[21:06:48] Repairing broken .GBK output that tbl2asn produces...
+[21:06:48] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.gbf > \.\/prokka_output\/GCA_000091085\.2_ASM9108v2_genomic\/GCA_000091085\.2_ASM9108v2_genomic\.gbk
+[21:06:48] Deleting unwanted file: ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.gbf
+[21:06:48] Output files:
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.log
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.fna
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.gff
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.faa
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.ffn
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.tbl
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.fsa
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.tsv
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.txt
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.sqn
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.gbk
+[21:06:48] ./prokka_output/GCA_000091085.2_ASM9108v2_genomic/GCA_000091085.2_ASM9108v2_genomic.err
+[21:06:48] Annotation finished successfully.
+[21:06:48] Walltime used: 0.48 minutes
+[21:06:48] If you use this result please cite the Prokka paper:
+[21:06:48] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[21:06:48] Type 'prokka --citation' for more details.
+[21:06:48] Share and enjoy!
