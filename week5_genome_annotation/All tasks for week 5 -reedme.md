@@ -1,8 +1,4 @@
 
-# Project Title
-
-A brief description of what this project does and who it's for
-
 
 ## Task 1 week 5
 # create a directory specifically for Week 5
